@@ -8,18 +8,19 @@ body {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
 .profile_img{
   width:50%;
   height:50%;
   border:solid 2px black;
   border-radius: 50%;
 }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
 
 .carousel-item {
   height: 65vh;
